@@ -3,6 +3,7 @@ import time
 import os
 import argparse
 import shutil
+from tqdm import tqdm
 
 checkpoints_path = "/remote-home/gengyu/MLN-main/checkpoints"
 for root, dirs, files in os.walk(checkpoints_path, topdown=False):
