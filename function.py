@@ -10,4 +10,7 @@ for root, dirs, files in os.walk(checkpoints_path, topdown=False):
     if not os.listdir(root):
         os.rmdir(root)
 
+
 print("i am curry!")
+print("i am green!")
+
